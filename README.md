@@ -30,4 +30,4 @@ This portfolio is created to demonstrate my ability to:
 
 ## 🔹 Contact
 - Email: jestin4careers@gmail.com    
-- GitHub: https://github.com/jestinjose90# jestin-portfolio
+- GitHub: https://github.com/jestinjose90/jestin-portfolio
