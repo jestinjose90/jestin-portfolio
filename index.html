@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Jestin Jose Portfolio</title>
+    <title>Jestin Jose | Data Analyst Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header>
-<h1>Jestin Jose</h1>
-<h2>Data Analyst | Data Scientist</h2>
+<header class="hero">
+    <h1>Jestin Jose</h1>
+    <h2>Data Analyst | Data Scientist</h2>
 
-<p>
-MS in Data Science with experience in SQL, Python,
-Power BI, Machine Learning, and Data Visualization.
-</p>
-    
-<a href="JestinJoseResume.pdf">Download Resume</a>
+    <p>
+        MS in Data Science with experience in SQL, Python,
+        Power BI, Machine Learning, and Data Visualization.
+    </p>
+
+    <a class="btn" href="JestinJoseResume.pdf" target="_blank">
+        Download Resume
+    </a>
 </header>
 
-<section>
+<section class="skills-section">
     <h2>Skills</h2>
 
-    <ul>
+    <ul class="skills">
         <li>SQL</li>
         <li>Python</li>
         <li>Power BI</li>
@@ -31,50 +34,82 @@ Power BI, Machine Learning, and Data Visualization.
     </ul>
 </section>
 
-    
-<section>
+<section class="projects-section">
     <h2>Projects</h2>
-    <div class="projects">
-        <div class="card">
-            <img src="images/MarketingAnalyticsDashboard.png" alt="Marketing Dashboard" />
-            
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+
+            <div class="image-wrapper">
+                <img src="images/MarketingAnalyticsDashboard.png" alt="Marketing Dashboard">
+            </div>
+
             <h3>Marketing Analytics Dashboard</h3>
 
             <p>
-                Built a customer segmentation and campaign analytics dashboard
-                using SQL and Power BI to evaluate marketing performance,
-                response rates, and revenue opportunities.
+                Built a customer segmentation and campaign analytics dashboard using SQL and Power BI
+                to evaluate marketing performance, response rates, and revenue opportunities.
             </p>
-            <a href="https://github.com/jestinjose90/Marketing-Analytics-Dashboard">View Project</a>
+
+            <div class="links">
+                <a href="https://github.com/jestinjose90/Marketing-Analytics-Dashboard" target="_blank">
+                    GitHub
+                </a>
+            </div>
         </div>
-        
-         <div class="card">
-             <img src="images/BankFraudDetection&RiskAnalyticsDashboard.png" alt="Fraud&RiskAnalytics Dashboard"/>
-             <h3>Bank Fraud Detection & Risk Analytics Dashboard</h3>
-                <p>
-                Developed an interactive Excel dashboard to monitor fraudulent
-                transactions, assess risk levels, and support fraud investigation.
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+
+            <div class="image-wrapper">
+                <img src="images/BankFraudDetection&RiskAnalyticsDashboard.png" alt="Fraud Dashboard">
+            </div>
+
+            <h3>Bank Fraud Detection & Risk Analytics</h3>
+
+            <p>
+                Developed an Excel-based fraud detection dashboard to analyze transactions,
+                assess risk levels, and support fraud investigation.
             </p>
-             <a href="https://github.com/jestinjose90/Excel-Fraud-Detection-Risk-Analytics-Dashboard">View Project</a>
-         </div>
-        
-        <div class="card">
-            <img src="images/stroke-img.png" alt="StrokePredictionApp"/>
-            
+
+            <div class="links">
+                <a href="https://github.com/jestinjose90/Excel-Fraud-Detection-Risk-Analytics-Dashboard" target="_blank">
+                    GitHub
+                </a>
+            </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+
+            <div class="image-wrapper">
+                <img src="images/stroke-img.png" alt="Stroke Prediction">
+            </div>
+
             <h3>Stroke Prediction ML Project</h3>
 
             <p>
-                Built an end-to-end machine learning pipeline using XGBoost,
-                SHAP, SMOTE, and Streamlit to predict stroke risk.
+                Built an end-to-end machine learning pipeline using XGBoost, SHAP,
+                and SMOTE to predict stroke risk with high recall and interpretability.
             </p>
-            <a href="https://github.com/jestinjose90/StrokeRiskPrediction">View Project</a>
+
+            <div class="links">
+                <a href="https://github.com/jestinjose90/StrokeRiskPrediction" target="_blank">
+                    GitHub
+                </a>
+            </div>
         </div>
+
     </div>
+</section>
 
+<section class="contact">
+    <h2>Contact</h2>
 
-<h2>Contact</h2>
-
-<p>Email: jestin4careers@gmail.com</p>
+    <p>Email: jestin4careers@gmail.com</p>
+</section>
 
 </body>
 </html>
