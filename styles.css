@@ -25,6 +25,7 @@ body{
 .btn{
     display:inline-block;
     margin-top:15px;
+    margin-right: 10px;
     padding:10px 18px;
     background:#1a73e8;
     color:white;
