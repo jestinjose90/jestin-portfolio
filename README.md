@@ -30,4 +30,4 @@ https://jestinjose90.github.io/Portfolio/
 
 ## 🔹 Contact
 - Email: jestin4careers@gmail.com    
-- GitHub: https://github.com/jestinjose90/jestin-portfolio
+- GitHub: https://jestinjose90.github.io/Portfolio/
