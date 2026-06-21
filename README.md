@@ -26,7 +26,7 @@ This portfolio is created to demonstrate my ability to:
 - Communicate business findings clearly
 
 ## 🔹 Live Portfolio
-(Will be added after GitHub Pages setup)
+https://jestinjose90.github.io/jestin-portfolio/
 
 ## 🔹 Contact
 - Email: jestin4careers@gmail.com    
