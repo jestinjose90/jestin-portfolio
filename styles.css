@@ -107,6 +107,7 @@ body{
 /* IMPORTANT FIX FOR DASHBOARD */
 .image-wrapper{
     width:100%;
+    aspect-ratio: 16 / 9;
     height:220px;
     background:#f5f5f5;
     display:flex;
