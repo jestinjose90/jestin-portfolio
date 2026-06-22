@@ -66,6 +66,26 @@ body{
     gap:25px;
 }
 
+.project-page{
+    max-width:900px;
+    margin:auto;
+    padding:40px;
+}
+
+.subtitle{
+    color:gray;
+    margin-top:-10px;
+    margin-bottom:20px;
+}
+
+.project-img{
+    width:100%;
+    max-width:900px;
+    border-radius:10px;
+    margin:20px 0;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
 /* CARD */
 .project-card{
     background:white;
@@ -119,3 +139,5 @@ body{
     text-align:center;
     padding:40px;
 }
+
+
