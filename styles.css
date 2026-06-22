@@ -140,7 +140,8 @@ body{
 .links{
     padding:15px;
     display:flex;
-    gap:10px;
+    justify-content:space-between;
+    align-items:center;
     margin-top:auto;
 }
 
