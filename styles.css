@@ -76,21 +76,58 @@ body{
 .project-page{
     max-width:900px;
     margin:auto;
-    padding:40px;
+    padding:40px 20px;
 }
 
 .subtitle{
-    color:gray;
-    margin-top:-10px;
-    margin-bottom:20px;
+    color:#666;
+    font-size:16px;
+    margin-bottom:25px;
 }
+
+.back-btn{
+    display:inline-block;
+    margin:20px;
+    text-decoration:none;
+    color:#2563eb;
+    font-weight:500;
+}
+
+.project-page h1{
+    font-size:34px;
+    margin-bottom:10px;
+}
+
+.project-page h2{
+    margin-top:30px;
+    font-size:22px;
+    border-left:4px solid #2563eb;
+    padding-left:10px;
+}
+
+project-page p{
+    line-height:1.7;
+    color:#444;
+    font-size:16px;
+}
+
+/* KPIs LIST STYLE */
+.project-page ul{
+    padding-left:20px;
+    line-height:1.8;
+    color:#444;
+}
+
+.project-page li{
+    margin-bottom:6px;
+}
+
 
 .project-img{
     width:100%;
-    max-width:900px;
-    border-radius:10px;
-    margin:20px 0;
-    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    border-radius:12px;
+    margin:20px 0 40px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.12);
 }
 
 /* CARD */
