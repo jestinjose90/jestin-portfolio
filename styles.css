@@ -111,6 +111,31 @@ project-page p{
     font-size:16px;
 }
 
+* SECTION BLOCK */
+.section-block{
+    margin-bottom:35px;
+}
+
+.section-block h2{
+    margin-bottom:10px;
+    color:#222;
+    border-left:4px solid #2563eb;
+    padding-left:10px;
+}
+
+.section-block p{
+    line-height:1.7;
+    color:#444;
+    font-size:16px;
+}
+
+.section-block ul{
+    padding-left:20px;
+    line-height:1.8;
+    color:#444;
+}
+
+
 /* KPIs LIST STYLE */
 .project-page ul{
     padding-left:20px;
